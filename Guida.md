@@ -3,7 +3,7 @@ WaaS - Welfare as a Service
 # Guida all'erogazione di e-service per WaaS
 V1.1 - Marzo 2024
 
-### **INDICE DEI CONTENUTI**
+# INDICE DEI CONTENUTI
 
 -   [INTRODUZIONE](#introduzione)
 
@@ -14,21 +14,21 @@ V1.1 - Marzo 2024
 
 -   [LINK UTILI](#link-utili)
 
-### **INTRODUZIONE**
+# INTRODUZIONE
 
 Il
 [SIUSS](https://www.inps.it/it/it/dati-e-bilanci/siuss--ex-casellario-dell-assistenza.html)
 (Sistema Informativo Unico dei Servizi Sociali) deve essere alimentato
 da ciascun ente con le proprie informazioni ai sensi del Decreto
-206/2014. L\'alimentazione può avvenire sia contattando un e-service
+206/2014. L'alimentazione può avvenire sia contattando un e-service
 pubblicato da INPS, sia pubblicando un e-service che verrà contattato
 periodicamente da INPS.
 
 Il seguente documento supporta i Comuni nella pubblicazione
 dell'e-service per il popolamento del SIUSS sulla Piattaforma digitale
 Nazionale Dati (PDND), guidando passo a passo nella preparazione ed
-erogazione. L\'e-service pubblicato può essere parte degli adempimenti
-necessari per l\'asseverazione dei progetti finanziati con gli avvisi
+erogazione. L'e-service pubblicato può essere parte degli adempimenti
+necessari per l'asseverazione dei progetti finanziati con gli avvisi
 legati alla Misura 1.3.1 del PNRR per i Comuni
 
 Per maggiori informazioni sull'adesione e l'utilizzo della Piattaforma,
@@ -36,7 +36,7 @@ riportiamo tra i [link utili](#link-utili) a fine documento il
 collegamento al manuale di [PDND
 Interoperabilità](https://docs.pagopa.it/interoperabilita-1).
 
-### **REPOSITORY GITHUB**
+# REPOSITORY GITHUB
 
 Il repository Github **WaaS.Comuni** pubblicato da INPS
 (<https://github.com/INPS-it/WaaS.Comuni>) contiene le specifiche
@@ -53,44 +53,40 @@ Invitiamo in particolare a visionare:
     specificha tecnica del servizio e la logica con cui INPS utilizzerà
     la API per l'alimentazione della banca dati del progetto.
 
-### **GUIDA ALLA PUBBLICAZIONE SU PDND**
+## GUIDA ALLA PUBBLICAZIONE SU PDND
 
-1.  **Selezione dell'ambiente**
+### 1. Selezione dell'ambiente
 
 PDND Interoperabilità mette a disposizione dei suoi aderenti due
 ambienti, collaudo e produzione. L'ambiente di collaudo, denomitato
 "*Interoperabilità collaudo*", è stato creato con lo scopo di effettuare
-dei test sull\'integrazione tra aderenti, oppure per verificare la
+dei test sull'integrazione tra aderenti, oppure per verificare la
 propria integrazione con PDND. L'ambiente di produzione, denominato
-"*Interoperabilità*", è l\'ambiente dove vengono erogate le API
+"*Interoperabilità*", è l'ambiente dove vengono erogate le API
 effettivamente utilizzate dagli altri aderenti della piattaforma. In
-PDND non c\'è bisogno, da parte dell\'aderente, di fare alcuna
-operazione aggiuntiva a valle dell\'adesione, i due ambienti saranno
+PDND non c'è bisogno, da parte dell'aderente, di fare alcuna
+operazione aggiuntiva a valle dell'adesione, i due ambienti saranno
 attivati automaticamente.
 
 Per selezionare l'ambiente dove si intende operare seguire i seguenti
 passi:
 
 1.  Effettuare il login con le credenziali SPID o CIE
-
-2.  Selezionare l\'ente per il quale sto operando
-
+2.  Selezionare l'ente per il quale sto operando
 3.  Selezionare il prodotto "*Interoperabilità*"
-
 4.  Successivamente alla selezione del prodotto, comparirà una schermata
-    dove viene chiesto se si intende operare sull\'ambiente di collaudo
+    dove viene chiesto se si intende operare sull'ambiente di collaudo
     o produzione
-
 5.  Selezionare l'ambiente desiderato
 
 Gli ambienti di collaudo vanno sempre mantenuti attivi, per permettere
-sia all\'ente, che ai fruitori, di effettuare test sull\'API, prima di
+sia all'ente, che ai fruitori, di effettuare test sull'API, prima di
 operare su quella di produzione.
 
 *NB: Tutti i passaggi mostrati nella guida devono essere ripetuti sia in
 ambiente di collaudo che in ambiente di produzione.*
 
-2.  **Inserimento contatti**
+### 2. Inserimento contatti
 
 *NB: La modifica dei contatti è possibile per i soli utenti che
 possiedono il ruolo di amministrazione della piattaforma.*
@@ -112,32 +108,29 @@ possiedono il ruolo di amministrazione della piattaforma.*
 > contatto diretto dell'utente amministratore della piattaforma,
 > evitando di inserire PEC o indirizzi di posta poco monitorati.*
 
-3.  []{#Segnalibro1 .anchor}**Preparazione del file .yaml**
+### 3. Preparazione del file .yaml
 
 Il file api-comuni.yaml andrà personalizzato secondo quanto scelto
-dall\'ente.
+dall'ente.
 
 In particolare:
 
 -   Il parametro *termsOfService* con la URL che descrive i termini
-    d\'uso del servizio
-
+    d'uso del servizio
 -   Il parametro *contact.email* con l\'email di contatto per supporto
-    all\'API
-
+    all'API
 -   Il parametro *servers.url* con la URL di esposizione del servizio
-    relativa all\'ambiente di pubblicazione
+    relativa all'ambiente di pubblicazione
 
-4.  **Erogazione e-service**
+### 4. Erogazione e-service
 
 > *NB: seguenti passaggi devono essere ripetuti sia in ambiente di
 > collaudo che in ambiente di produzione.*
 
-1.  Seleziona **Erogazione** \> **I tuoi e-service** e clicca il
+1. Seleziona **Erogazione** \> **I tuoi e-service** e clicca il
     pulsante **"+1 Crea Nuovo"** per avviare il processo di creazione di
     un nuovo e-service.
     ![](./media/image3.png)
-
 2.  Allo step **Generale** inserisci nome e descrizione come da esempio,
     poi continua con **Salva bozza e prosegui**![Immagine che contiene
     testo, schermata, software, Pagina Web Descrizione generata
@@ -149,7 +142,6 @@ In particolare:
 > telematica dei dati al SIUSS Sistema Informativo Unitario dei Servizi
 > Sociali, tramite la fruizione da parte di INPS attraverso Web API,
 > tipologia REST.
-
 3.  Allo step **Versione** inserisci i dati dei campi obbligatori,
     lasciando come di default (non selezionata) l'attivazione manuale.
     Poi continua con **Salva bozza e prosegui**
@@ -232,7 +224,7 @@ dedicata al progetto ***progettowelfareasaservice@inps.it*** indicando:
 -   IP o range di IP di erogazione del servizio in ambiente di collaudo
     e produzione;
 
-### **LINK UTILI**
+## LINK UTILI
 
 -   [Manuale PDND](https://docs.pagopa.it/interoperabilita-1)
     Interoperabilità
