@@ -218,9 +218,6 @@ In particolare:
     testo, schermata, software, Icona del computer Descrizione generata
     automaticamente](./media/image12.png)
 
-```{=html}
-<!-- -->
-```
 5.  **Invio riferimenti IP ad INPS**
 
 Completato con successo il processo di pubblicazione dell'e-service in
