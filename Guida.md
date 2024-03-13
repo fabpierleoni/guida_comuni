@@ -1,6 +1,7 @@
-Guida all'erogazione di e-service per WaaS
+WaaS - Welfare as a Service
 
-V1.1 -- Marzo 2024
+# Guida all'erogazione di e-service per WaaS
+V1.1 - Marzo 2024
 
 ### **INDICE DEI CONTENUTI**
 
@@ -160,13 +161,13 @@ In particolare:
 > Suggeriamo i seguenti valori per quanto riguarda la durata del voucher
 > e le soglie relative alle chiamate:
 >
-> [Durata validità (in minuti):]{.underline} 1440
+> <ins>Durata validità (in minuti):</ins> 1440
 >
-> [Chiamate API/giorno per fruitore:]{.underline} 100
+> <ins>Chiamate API/giorno per fruitore:</ins> 100
 >
-> [Chiamate API/giorno totali:]{.underline} 100
+> <ins>Chiamate API/giorno totali:</ins> 100
 >
-> [Audience:]{.underline} SIUSS
+> <ins>Audience:</ins> SIUSS
 
 4.  Allo step **Attributi** vanno indicati gli attributi che il fruitore
     deve possedere per richiedere la fruizione dell'e-service. In questo
