@@ -97,16 +97,14 @@ possiedono il ruolo di amministrazione della piattaforma.*
 1.  Una volta scelto l'ambiente in cui intendi operare, dal menu di
     sinistra seleziona **il tuo ente** \> **anagrafica e attributi.**
     Successivamente clicca su **modifica** nella sezione
-    contatti![](./media/image1.png "2.1"){width="5.10416447944007in"
-    height="3.023432852143482in"}
+    contatti![](./media/image1.png "2.1")
 
 2.  inserisci una mail di contatto diretto dell'utente che gestisce la
     piattaforma per conto del comune.
 
 > ![Immagine che contiene testo, software, schermata, Icona del computer
 > Descrizione generata
-> automaticamente](./media/image2.png){width="3.6682064741907263in"
-> height="3.166699475065617in"}
+> automaticamente](./media/image2.png)
 >
 > *NB: L'indirizzo potrà essere utilizzato da INPS e da altri enti per
 > comunicazioni di carattere tecnico: si suggerisce di inserire un
@@ -137,14 +135,12 @@ In particolare:
 1.  Seleziona **Erogazione** \> **I tuoi e-service** e clicca il
     pulsante **"+1 Crea Nuovo"** per avviare il processo di creazione di
     un nuovo e-service.
-    ![](./media/image3.png){width="4.854689413823272in"
-    height="2.120002187226597in"}
+    ![](./media/image3.png)
 
 2.  Allo step **Generale** inserisci nome e descrizione come da esempio,
     poi continua con **Salva bozza e prosegui**![Immagine che contiene
     testo, schermata, software, Pagina Web Descrizione generata
-    automaticamente](./media/image4.png){width="3.187457349081365in"
-    height="2.7263888888888888in"}
+    automaticamente](./media/image4.png)
 
 > [Nome dell'e-service]{.underline}: WAAS-SIUSS-Alimentazione
 >
@@ -159,8 +155,7 @@ In particolare:
 
 > ![Immagine che contiene testo, software, schermata, Icona del computer
 > Descrizione generata
-> automaticamente](./media/image5.png){width="3.789854549431321in"
-> height="2.9287215660542434in"}
+> automaticamente](./media/image5.png)
 >
 > Suggeriamo i seguenti valori per quanto riguarda la durata del voucher
 > e le soglie relative alle chiamate:
@@ -182,21 +177,18 @@ In particolare:
 
 > ![Immagine che contiene testo, schermata, Carattere, numero
 > Descrizione generata
-> automaticamente](./media/image6.png){width="3.695174978127734in"
-> height="2.8125in"}
+> automaticamente](./media/image6.png)
 
 5.  Seleziona "**+ Aggiungi requisito**", digita nel campo di ricerca
     "INPS" e seleziona **"Istituto Nazionale Previdenza Sociale -
     INPS"**![Immagine che contiene testo, software, schermata, Icona del
     computer Descrizione generata
-    automaticamente](./media/image7.png){width="3.6951388888888888in"
-    height="2.919765966754156in"}
+    automaticamente](./media/image7.png)
 
 6.  Clicca su **Aggiungi requisito** per confermare la
     selezione![Immagine che contiene testo, software, Icona del
     computer, Pagina Web Descrizione generata
-    automaticamente](./media/image8.png){width="3.5in"
-    height="2.8426695100612425in"}
+    automaticamente](./media/image8.png)
 
 7.  Se l'attributo è stato selezionato correttamente, comparirà tra gli
     attributi certificati, come da esempio seguente. A questo punto
@@ -204,8 +196,7 @@ In particolare:
 
 > ![Immagine che contiene testo, software, Icona del computer, Pagina
 > Web Descrizione generata
-> automaticamente](./media/image9.png){width="3.6847222222222222in"
-> height="2.9342399387576554in"}
+> automaticamente](./media/image9.png)
 
 8.  L'ultimo step è dedicato alla **Documentazione** relativa
     all'e-service: qui è necessario caricare il file .yaml con la
@@ -215,19 +206,17 @@ In particolare:
 
 > ![Immagine che contiene testo, schermata, software, Icona del computer
 > Descrizione generata
-> automaticamente](./media/image10.png){width="3.9259262904636922in"
-> height="2.477926509186352in"}
+> automaticamente](./media/image10.png)
 
 9.  Clicca **Vai al riepilogo** e, dopo aver visualizzato il riepilogo,
     clicca su **Pubblica**
 
-> ![](./media/image11.png){width="3.8703707349081364in"
-> height="2.913588145231846in"}
+> ![](./media/image11.png)
 
 10. **Conferma** la pubblicazione dell'e-service: è completato il
     processo di pubblicazione in piattaforma ![Immagine che contiene
     testo, schermata, software, Icona del computer Descrizione generata
-    automaticamente](./media/image12.png){width="5.0in" height="2.25in"}
+    automaticamente](./media/image12.png)
 
 ```{=html}
 <!-- -->
