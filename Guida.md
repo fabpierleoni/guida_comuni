@@ -184,7 +184,7 @@ collaudo che in ambiente di produzione.
 8.  L'ultimo step è dedicato alla **Documentazione** relativa
     all'e-service: qui è necessario caricare il file .yaml con la
     specifica API, scaricato dal repository Github di INPS e
-    opportunamente aggiornato [come da punto 3](#Segnalibro1). Se
+    opportunamente aggiornato [come da punto 3](#3-preparazione-del-file-yaml). Se
     necessario, potrai inserire ulteriore documentazione a supporto
 
     ![](./media/image10.png)
