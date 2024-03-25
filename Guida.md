@@ -99,14 +99,14 @@ possiedono il ruolo di amministrazione della piattaforma.*
 2.  inserisci una mail di contatto diretto dell'utente che gestisce la
     piattaforma per conto del comune.
 
-> ![Immagine che contiene testo, software, schermata, Icona del computer
-> Descrizione generata
-> automaticamente](./media/image2.png)
->
-> *NB: L'indirizzo potrà essere utilizzato da INPS e da altri enti per
-> comunicazioni di carattere tecnico: si suggerisce di inserire un
-> contatto diretto dell'utente amministratore della piattaforma,
-> evitando di inserire PEC o indirizzi di posta poco monitorati.*
+     ![Immagine che contiene testo, software, schermata, Icona del computer
+   Descrizione generata
+     automaticamente](./media/image2.png)
+
+     NB: L'indirizzo potrà essere utilizzato da INPS e da altri enti per
+     comunicazioni di carattere tecnico: si suggerisce di inserire un
+     contatto diretto dell'utente amministratore della piattaforma,
+     evitando di inserire PEC o indirizzi di posta poco monitorati.
 
 ### 3. Preparazione del file .yaml
 
@@ -115,17 +115,17 @@ dall'ente.
 
 In particolare:
 
--   Il parametro *termsOfService* con la URL che descrive i termini
+-   Il parametro `termsOfService` con la URL che descrive i termini
     d'uso del servizio
--   Il parametro *contact.email* con l\'email di contatto per supporto
+-   Il parametro `contact.email` con l\'email di contatto per supporto
     all'API
--   Il parametro *servers.url* con la URL di esposizione del servizio
+-   Il parametro `servers.url` con la URL di esposizione del servizio
     relativa all'ambiente di pubblicazione
 
 ### 4. Erogazione e-service
 
-> *NB: seguenti passaggi devono essere ripetuti sia in ambiente di
-> collaudo che in ambiente di produzione.*
+NB: seguenti passaggi devono essere ripetuti sia in ambiente di
+collaudo che in ambiente di produzione.
 
 1. Seleziona **Erogazione** \> **I tuoi e-service** e clicca il
     pulsante **"+1 Crea Nuovo"** per avviare il processo di creazione di
@@ -136,30 +136,28 @@ In particolare:
     testo, schermata, software, Pagina Web Descrizione generata
     automaticamente](./media/image4.png)
 
-> [Nome dell'e-service]{.underline}: WAAS-SIUSS-Alimentazione
->
-> [Descrizione]{.underline}: Il servizio consente la trasmissione
-> telematica dei dati al SIUSS Sistema Informativo Unitario dei Servizi
-> Sociali, tramite la fruizione da parte di INPS attraverso Web API,
-> tipologia REST.
+    **Nome dell'e-service**: WAAS-SIUSS-Alimentazione
+
+    **Descrizione**: Il servizio consente la trasmissione
+    telematica dei dati al SIUSS Sistema Informativo Unitario dei Servizi
+    Sociali, tramite la fruizione da parte di INPS attraverso Web API,
+    tipologia REST.
 3.  Allo step **Versione** inserisci i dati dei campi obbligatori,
     lasciando come di default (non selezionata) l'attivazione manuale.
     Poi continua con **Salva bozza e prosegui**
 
-> ![Immagine che contiene testo, software, schermata, Icona del computer
-> Descrizione generata
-> automaticamente](./media/image5.png)
->
-> Suggeriamo i seguenti valori per quanto riguarda la durata del voucher
-> e le soglie relative alle chiamate:
->
-> <ins>Durata validità (in minuti):</ins> 1440
->
-> <ins>Chiamate API/giorno per fruitore:</ins> 100
->
-> <ins>Chiamate API/giorno totali:</ins> 100
->
-> <ins>Audience:</ins> SIUSS
+    ![](./media/image5.png)
+
+    Suggeriamo i seguenti valori per quanto riguarda la durata del voucher
+    e le soglie relative alle chiamate:
+
+    **Durata validità (in minuti):** 1440
+
+    **Chiamate API/giorno per fruitore:** 100
+
+    **Chiamate API/giorno totali:** 100
+
+    **Audience:** SIUSS
 
 4.  Allo step **Attributi** vanno indicati gli attributi che il fruitore
     deve possedere per richiedere la fruizione dell'e-service. In questo
@@ -168,48 +166,36 @@ In particolare:
     servizio. Clicca su **Attributi Certificati** \> **Aggiungi
     attributo**
 
-> ![Immagine che contiene testo, schermata, Carattere, numero
-> Descrizione generata
-> automaticamente](./media/image6.png)
+    ![](./media/image6.png)
 
-5.  Seleziona "**+ Aggiungi requisito**", digita nel campo di ricerca
-    "INPS" e seleziona **"Istituto Nazionale Previdenza Sociale -
-    INPS"**![Immagine che contiene testo, software, schermata, Icona del
-    computer Descrizione generata
-    automaticamente](./media/image7.png)
+5.  Seleziona **Aggiungi requisito**, digita nel campo di ricerca
+    "INPS" e seleziona **Istituto Nazionale Previdenza Sociale -
+    INPS**![](./media/image7.png)
 
 6.  Clicca su **Aggiungi requisito** per confermare la
-    selezione![Immagine che contiene testo, software, Icona del
-    computer, Pagina Web Descrizione generata
-    automaticamente](./media/image8.png)
+    selezione![](./media/image8.png)
 
 7.  Se l'attributo è stato selezionato correttamente, comparirà tra gli
     attributi certificati, come da esempio seguente. A questo punto
     clicca "**Salva bozza e prosegui**"
 
-> ![Immagine che contiene testo, software, Icona del computer, Pagina
-> Web Descrizione generata
-> automaticamente](./media/image9.png)
+    ![](./media/image9.png)
 
 8.  L'ultimo step è dedicato alla **Documentazione** relativa
     all'e-service: qui è necessario caricare il file .yaml con la
     specifica API, scaricato dal repository Github di INPS e
-    opportunamente aggiornato [come da punto 3](#Segnalibro1). Se
+    opportunamente aggiornato [come da punto 3](#3-preparazione-del-file-yaml). Se
     necessario, potrai inserire ulteriore documentazione a supporto
 
-> ![Immagine che contiene testo, schermata, software, Icona del computer
-> Descrizione generata
-> automaticamente](./media/image10.png)
+    ![](./media/image10.png)
 
 9.  Clicca **Vai al riepilogo** e, dopo aver visualizzato il riepilogo,
     clicca su **Pubblica**
 
-> ![](./media/image11.png)
+    ![](./media/image11.png)
 
 10. **Conferma** la pubblicazione dell'e-service: è completato il
-    processo di pubblicazione in piattaforma ![Immagine che contiene
-    testo, schermata, software, Icona del computer Descrizione generata
-    automaticamente](./media/image12.png)
+    processo di pubblicazione in piattaforma ![](./media/image12.png)
 
 5.  **Invio riferimenti IP ad INPS**
 
@@ -217,9 +203,9 @@ Completato con successo il processo di pubblicazione dell'e-service in
 piattaforma, INPS richiede di inviare una mail alla casella di posta
 dedicata al progetto ***progettowelfareasaservice@inps.it*** indicando:
 
--   il nome dell\'Ente;
+-   il nome dell'Ente;
 
--   il codice belfiore dell\'Ente;
+-   il codice belfiore dell'Ente;
 
 -   IP o range di IP di erogazione del servizio in ambiente di collaudo
     e produzione;
